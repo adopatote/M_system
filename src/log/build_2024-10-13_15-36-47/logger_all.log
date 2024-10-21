@@ -1,0 +1,216 @@
+[3.832s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.832s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75f3584d89d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75f3588d31c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75f3588d31c0>>)
+[4.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.056s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/M_system/src'
+[4.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extensions ['ignore', 'ignore_ament_install']
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extension 'ignore'
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extension 'ignore_ament_install'
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extensions ['colcon_pkg']
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extension 'colcon_pkg'
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extensions ['colcon_meta']
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extension 'colcon_meta'
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extensions ['ros']
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(P_m_gps_listener) by extension 'ros'
+[4.102s] DEBUG:colcon.colcon_core.package_identification:Package 'P_m_gps_listener' with type 'ros.ament_python' and name 'P_m_gps_listener'
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extensions ['ignore', 'ignore_ament_install']
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extension 'ignore'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extension 'ignore_ament_install'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extensions ['colcon_pkg']
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extension 'colcon_pkg'
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extensions ['colcon_meta']
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extension 'colcon_meta'
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extensions ['ros']
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extension 'ros'
+[4.107s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'my_string_publisher': Error(s) in package 'my_string_publisher/package.xml':
+Error(s):
+- The generic dependency on 'rclpy' is redundant with: exec_depend
+- The generic dependency on 'std_msgs' is redundant with: exec_depend
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extensions ['cmake', 'python']
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extension 'cmake'
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extension 'python'
+[4.108s] DEBUG:colcon.colcon_core.package_identification:Python package in 'my_string_publisher' passes arguments to the setup() function which requires a different identification extension than 'python'
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extensions ['python_setup_py']
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(my_string_publisher) by extension 'python_setup_py'
+[4.917s] DEBUG:colcon.colcon_core.package_identification:Package 'my_string_publisher' with type 'python' and name 'my_string_publisher'
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extensions ['ignore', 'ignore_ament_install']
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extension 'ignore'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extension 'ignore_ament_install'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extensions ['colcon_pkg']
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extension 'colcon_pkg'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extensions ['colcon_meta']
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extension 'colcon_meta'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extensions ['ros']
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(nmea_navsat_driver) by extension 'ros'
+[4.920s] DEBUG:colcon.colcon_core.package_identification:Package 'nmea_navsat_driver' with type 'ros.ament_python' and name 'nmea_navsat_driver'
+[4.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/user/M_system/src/install
+[5.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 335 installed packages in /opt/ros/humble
+[5.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.709s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'cmake_args' from command line to 'None'
+[5.709s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'cmake_target' from command line to 'None'
+[5.709s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.709s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[5.709s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'cmake_clean_first' from command line to 'False'
+[5.709s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'cmake_force_configure' from command line to 'False'
+[5.710s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'ament_cmake_args' from command line to 'None'
+[5.710s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[5.710s] Level 5:colcon.colcon_core.verb:set package 'P_m_gps_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.710s] DEBUG:colcon.colcon_core.verb:Building package 'P_m_gps_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/M_system/src/build/P_m_gps_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/M_system/src/install/P_m_gps_listener', 'merge_install': False, 'path': '/home/user/M_system/src/P_m_gps_listener', 'symlink_install': False, 'test_result_base': None}
+[5.760s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'cmake_args' from command line to 'None'
+[5.761s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'cmake_target' from command line to 'None'
+[5.761s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.761s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[5.761s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[5.761s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[5.761s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[5.761s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[5.761s] Level 5:colcon.colcon_core.verb:set package 'my_string_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.761s] DEBUG:colcon.colcon_core.verb:Building package 'my_string_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/M_system/src/build/my_string_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/M_system/src/install/my_string_publisher', 'merge_install': False, 'path': '/home/user/M_system/src/my_string_publisher', 'symlink_install': False, 'test_result_base': None}
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_args' from command line to 'None'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_target' from command line to 'None'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_clean_first' from command line to 'False'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_force_configure' from command line to 'False'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'ament_cmake_args' from command line to 'None'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.813s] DEBUG:colcon.colcon_core.verb:Building package 'nmea_navsat_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/M_system/src/build/nmea_navsat_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/M_system/src/install/nmea_navsat_driver', 'merge_install': False, 'path': '/home/user/M_system/src/nmea_navsat_driver', 'symlink_install': False, 'test_result_base': None}
+[5.863s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.913s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.914s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/M_system/src/P_m_gps_listener' with build type 'ament_python'
+[5.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('P_m_gps_listener', 'ament_prefix_path')
+[5.981s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/hook/ament_prefix_path.ps1'
+[5.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/hook/ament_prefix_path.dsv'
+[5.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/hook/ament_prefix_path.sh'
+[6.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.048s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.208s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/M_system/src/my_string_publisher'
+[6.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.313s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/M_system/src/P_m_gps_listener'
+[7.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/M_system/src/P_m_gps_listener': PYTHONPATH=/home/user/M_system/src/build/P_m_gps_listener/prefix_override:/home/user/M_system/src/install/P_m_gps_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/P_m_gps_listener build --build-base /home/user/M_system/src/build/P_m_gps_listener/build install --record /home/user/M_system/src/build/P_m_gps_listener/install.log --single-version-externally-managed
+[10.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/M_system/src/my_string_publisher': PYTHONPATH=/home/user/M_system/src/build/my_string_publisher/prefix_override:/home/user/M_system/src/install/my_string_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_string_publisher build --build-base /home/user/M_system/src/build/my_string_publisher/build install --record /home/user/M_system/src/build/my_string_publisher/install.log --single-version-externally-managed
+[12.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/M_system/src/my_string_publisher' returned '0': PYTHONPATH=/home/user/M_system/src/build/my_string_publisher/prefix_override:/home/user/M_system/src/install/my_string_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_string_publisher build --build-base /home/user/M_system/src/build/my_string_publisher/build install --record /home/user/M_system/src/build/my_string_publisher/install.log --single-version-externally-managed
+[12.505s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/my_string_publisher' for CMake module files
+[12.506s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/my_string_publisher' for CMake config files
+[12.508s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/my_string_publisher/lib'
+[12.509s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/my_string_publisher/bin'
+[12.509s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/my_string_publisher/lib/pkgconfig/my_string_publisher.pc'
+[12.510s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/my_string_publisher/lib/python3.10/site-packages'
+[12.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_string_publisher', 'pythonpath')
+[12.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/my_string_publisher/share/my_string_publisher/hook/pythonpath.ps1'
+[12.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/M_system/src/install/my_string_publisher/share/my_string_publisher/hook/pythonpath.dsv'
+[12.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/my_string_publisher/share/my_string_publisher/hook/pythonpath.sh'
+[12.630s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/my_string_publisher/bin'
+[12.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_string_publisher)
+[12.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/my_string_publisher/share/my_string_publisher/package.ps1'
+[12.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/M_system/src/install/my_string_publisher/share/my_string_publisher/package.dsv'
+[12.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/my_string_publisher/share/my_string_publisher/package.sh'
+[12.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/my_string_publisher/share/my_string_publisher/package.bash'
+[12.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/my_string_publisher/share/my_string_publisher/package.zsh'
+[12.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/M_system/src/install/my_string_publisher/share/colcon-core/packages/my_string_publisher)
+[12.731s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/M_system/src/nmea_navsat_driver' with build type 'ament_python'
+[12.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmea_navsat_driver', 'ament_prefix_path')
+[12.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/ament_prefix_path.ps1'
+[12.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/ament_prefix_path.dsv'
+[12.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/ament_prefix_path.sh'
+[12.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/M_system/src/P_m_gps_listener' returned '0': PYTHONPATH=/home/user/M_system/src/build/P_m_gps_listener/prefix_override:/home/user/M_system/src/install/P_m_gps_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/P_m_gps_listener build --build-base /home/user/M_system/src/build/P_m_gps_listener/build install --record /home/user/M_system/src/build/P_m_gps_listener/install.log --single-version-externally-managed
+[13.254s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/P_m_gps_listener' for CMake module files
+[13.255s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/P_m_gps_listener' for CMake config files
+[13.258s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/P_m_gps_listener/lib'
+[13.258s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/P_m_gps_listener/bin'
+[13.259s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/P_m_gps_listener/lib/pkgconfig/P_m_gps_listener.pc'
+[13.260s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/P_m_gps_listener/lib/python3.10/site-packages'
+[13.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('P_m_gps_listener', 'pythonpath')
+[13.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/hook/pythonpath.ps1'
+[13.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/hook/pythonpath.dsv'
+[13.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/hook/pythonpath.sh'
+[13.374s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/P_m_gps_listener/bin'
+[13.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(P_m_gps_listener)
+[13.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/package.ps1'
+[13.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/package.dsv'
+[13.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/package.sh'
+[13.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/package.bash'
+[13.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/P_m_gps_listener/share/P_m_gps_listener/package.zsh'
+[13.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/M_system/src/install/P_m_gps_listener/share/colcon-core/packages/P_m_gps_listener)
+[15.057s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/M_system/src/nmea_navsat_driver'
+[15.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/M_system/src/nmea_navsat_driver': PYTHONPATH=/home/user/M_system/src/build/nmea_navsat_driver/prefix_override:/home/user/M_system/src/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/nmea_navsat_driver build --build-base /home/user/M_system/src/build/nmea_navsat_driver/build install --record /home/user/M_system/src/build/nmea_navsat_driver/install.log --single-version-externally-managed
+[18.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/M_system/src/nmea_navsat_driver' returned '0': PYTHONPATH=/home/user/M_system/src/build/nmea_navsat_driver/prefix_override:/home/user/M_system/src/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/nmea_navsat_driver build --build-base /home/user/M_system/src/build/nmea_navsat_driver/build install --record /home/user/M_system/src/build/nmea_navsat_driver/install.log --single-version-externally-managed
+[18.498s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/nmea_navsat_driver' for CMake module files
+[18.500s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/nmea_navsat_driver' for CMake config files
+[18.502s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/nmea_navsat_driver/lib'
+[18.502s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/nmea_navsat_driver/bin'
+[18.503s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/nmea_navsat_driver/lib/pkgconfig/nmea_navsat_driver.pc'
+[18.504s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/nmea_navsat_driver/lib/python3.10/site-packages'
+[18.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmea_navsat_driver', 'pythonpath')
+[18.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/pythonpath.ps1'
+[18.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/pythonpath.dsv'
+[18.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/hook/pythonpath.sh'
+[18.598s] Level 1:colcon.colcon_core.environment:checking '/home/user/M_system/src/install/nmea_navsat_driver/bin'
+[18.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nmea_navsat_driver)
+[18.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/package.ps1'
+[18.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/package.dsv'
+[18.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/package.sh'
+[18.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/package.bash'
+[18.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/M_system/src/install/nmea_navsat_driver/share/nmea_navsat_driver/package.zsh'
+[18.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/M_system/src/install/nmea_navsat_driver/share/colcon-core/packages/nmea_navsat_driver)
+[18.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.683s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.785s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.829s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.980s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/M_system/src/install/local_setup.ps1'
+[18.990s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/M_system/src/install/_local_setup_util_ps1.py'
+[18.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/M_system/src/install/setup.ps1'
+[19.078s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/M_system/src/install/local_setup.sh'
+[19.080s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/M_system/src/install/_local_setup_util_sh.py'
+[19.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/M_system/src/install/setup.sh'
+[19.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/M_system/src/install/local_setup.bash'
+[19.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/M_system/src/install/setup.bash'
+[19.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/M_system/src/install/local_setup.zsh'
+[19.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/M_system/src/install/setup.zsh'

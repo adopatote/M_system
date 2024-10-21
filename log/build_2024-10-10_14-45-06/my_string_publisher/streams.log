@@ -1,0 +1,35 @@
+[1.215s] Invoking command in '/home/user/M_system/src/my_string_publisher': PYTHONPATH=/home/user/M_system/build/my_string_publisher/prefix_override:/home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_string_publisher build --build-base /home/user/M_system/build/my_string_publisher/build install --record /home/user/M_system/build/my_string_publisher/install.log --single-version-externally-managed
+[1.768s] running egg_info
+[1.797s] writing ../../build/my_string_publisher/my_string_publisher.egg-info/PKG-INFO
+[1.799s] writing dependency_links to ../../build/my_string_publisher/my_string_publisher.egg-info/dependency_links.txt
+[1.799s] writing entry points to ../../build/my_string_publisher/my_string_publisher.egg-info/entry_points.txt
+[1.800s] writing requirements to ../../build/my_string_publisher/my_string_publisher.egg-info/requires.txt
+[1.801s] writing top-level names to ../../build/my_string_publisher/my_string_publisher.egg-info/top_level.txt
+[1.871s] reading manifest file '../../build/my_string_publisher/my_string_publisher.egg-info/SOURCES.txt'
+[1.875s] writing manifest file '../../build/my_string_publisher/my_string_publisher.egg-info/SOURCES.txt'
+[1.875s] running build
+[1.876s] running build_py
+[1.876s] copying my_string_publisher/__init__.py -> /home/user/M_system/build/my_string_publisher/build/lib/my_string_publisher
+[1.877s] copying my_string_publisher/publisher_node.py -> /home/user/M_system/build/my_string_publisher/build/lib/my_string_publisher
+[1.878s] running install
+[1.879s] /home/user/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.879s] !!
+[1.879s] 
+[1.879s]         ********************************************************************************
+[1.880s]         Please avoid running ``setup.py`` directly.
+[1.880s]         Instead, use pypa/build, pypa/installer or other
+[1.880s]         standards-based tools.
+[1.881s] 
+[1.881s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.881s]         ********************************************************************************
+[1.881s] 
+[1.881s] !!
+[1.882s]   self.initialize_options()
+[1.891s] running install_lib
+[1.923s] running install_egg_info
+[1.964s] removing '/home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages/my_string_publisher-0.0.1-py3.10.egg-info' (and everything under it)
+[1.965s] Copying ../../build/my_string_publisher/my_string_publisher.egg-info to /home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages/my_string_publisher-0.0.1-py3.10.egg-info
+[1.967s] running install_scripts
+[2.224s] Installing publisher_node script to /home/user/M_system/install/my_string_publisher/lib/my_string_publisher
+[2.225s] writing list of installed files to '/home/user/M_system/build/my_string_publisher/install.log'
+[2.306s] Invoked command in '/home/user/M_system/src/my_string_publisher' returned '0': PYTHONPATH=/home/user/M_system/build/my_string_publisher/prefix_override:/home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_string_publisher build --build-base /home/user/M_system/build/my_string_publisher/build install --record /home/user/M_system/build/my_string_publisher/install.log --single-version-externally-managed

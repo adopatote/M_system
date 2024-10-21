@@ -1,0 +1,22 @@
+[1.985s] Invoking command in '/home/user/M_system/src': PYTHONPATH=/home/user/M_system/build/my_string_publisher/prefix_override:/home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_string_publisher build --build-base /home/user/M_system/build/my_string_publisher/build install --record /home/user/M_system/build/my_string_publisher/install.log --single-version-externally-managed
+[2.668s] running egg_info
+[2.670s] writing ../build/my_string_publisher/my_string_publisher.egg-info/PKG-INFO
+[2.671s] writing dependency_links to ../build/my_string_publisher/my_string_publisher.egg-info/dependency_links.txt
+[2.671s] writing entry points to ../build/my_string_publisher/my_string_publisher.egg-info/entry_points.txt
+[2.672s] writing requirements to ../build/my_string_publisher/my_string_publisher.egg-info/requires.txt
+[2.672s] writing top-level names to ../build/my_string_publisher/my_string_publisher.egg-info/top_level.txt
+[2.677s] reading manifest file '../build/my_string_publisher/my_string_publisher.egg-info/SOURCES.txt'
+[2.680s] writing manifest file '../build/my_string_publisher/my_string_publisher.egg-info/SOURCES.txt'
+[2.681s] running build
+[2.681s] running build_py
+[2.681s] running install
+[2.682s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.682s]   warnings.warn(
+[2.682s] running install_lib
+[2.685s] running install_egg_info
+[2.689s] removing '/home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages/my_string_publisher-0.0.1-py3.10.egg-info' (and everything under it)
+[2.689s] Copying ../build/my_string_publisher/my_string_publisher.egg-info to /home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages/my_string_publisher-0.0.1-py3.10.egg-info
+[2.696s] running install_scripts
+[2.747s] Installing publisher_node script to /home/user/M_system/install/my_string_publisher/lib/my_string_publisher
+[2.748s] writing list of installed files to '/home/user/M_system/build/my_string_publisher/install.log'
+[2.827s] Invoked command in '/home/user/M_system/src' returned '0': PYTHONPATH=/home/user/M_system/build/my_string_publisher/prefix_override:/home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_string_publisher build --build-base /home/user/M_system/build/my_string_publisher/build install --record /home/user/M_system/build/my_string_publisher/install.log --single-version-externally-managed

@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.001259] (my_string_publisher) JobQueued: {'identifier': 'my_string_publisher', 'dependencies': OrderedDict()}
+[0.001653] (nmea_navsat_driver) JobQueued: {'identifier': 'nmea_navsat_driver', 'dependencies': OrderedDict()}
+[0.001775] (my_string_publisher) JobStarted: {'identifier': 'my_string_publisher'}
+[0.075614] (nmea_navsat_driver) JobStarted: {'identifier': 'nmea_navsat_driver'}
+[0.099619] (-) TimerEvent: {}
+[0.200142] (-) TimerEvent: {}
+[0.300621] (-) TimerEvent: {}
+[0.401085] (-) TimerEvent: {}
+[0.501545] (-) TimerEvent: {}
+[0.602010] (-) TimerEvent: {}
+[0.702465] (-) TimerEvent: {}
+[0.802964] (-) TimerEvent: {}
+[0.903482] (-) TimerEvent: {}
+[1.004186] (-) TimerEvent: {}
+[1.104932] (-) TimerEvent: {}
+[1.205543] (-) TimerEvent: {}
+[1.306473] (-) TimerEvent: {}
+[1.407068] (-) TimerEvent: {}
+[1.507677] (-) TimerEvent: {}
+[1.608419] (-) TimerEvent: {}
+[1.709094] (-) TimerEvent: {}
+[1.809739] (-) TimerEvent: {}
+[1.910842] (-) TimerEvent: {}
+[2.011598] (-) TimerEvent: {}
+[2.112264] (-) TimerEvent: {}
+[2.212890] (-) TimerEvent: {}
+[2.313561] (-) TimerEvent: {}
+[2.353706] (my_string_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_string_publisher', 'build', '--build-base', '/home/user/M_system/build/my_string_publisher/build', 'install', '--record', '/home/user/M_system/build/my_string_publisher/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/M_system/src/my_string_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'user', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/user', 'OLDPWD': '/home/user/M_system/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '28819', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-HP-Laptop-15-db0xxx:@/tmp/.ICE-unix/26751,unix/user-HP-Laptop-15-db0xxx:/tmp/.ICE-unix/26751', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3dce1892_a8d7_4561_818d_31767eff8391', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H0QQV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/M_system/build/my_string_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/user/M_system/build/my_string_publisher/prefix_override:/home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages:'}, 'shell': False}
+[2.413694] (-) TimerEvent: {}
+[2.514435] (-) TimerEvent: {}
+[2.615135] (-) TimerEvent: {}
+[2.716058] (-) TimerEvent: {}
+[2.816647] (-) TimerEvent: {}
+[2.917283] (-) TimerEvent: {}
+[3.018196] (-) TimerEvent: {}
+[3.118996] (-) TimerEvent: {}
+[3.197768] (nmea_navsat_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nmea_navsat_driver', 'build', '--build-base', '/home/user/M_system/build/nmea_navsat_driver/build', 'install', '--record', '/home/user/M_system/build/nmea_navsat_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/M_system/src/nmea_navsat_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'user', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/user', 'OLDPWD': '/home/user/M_system/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '28819', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-HP-Laptop-15-db0xxx:@/tmp/.ICE-unix/26751,unix/user-HP-Laptop-15-db0xxx:/tmp/.ICE-unix/26751', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3dce1892_a8d7_4561_818d_31767eff8391', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H0QQV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/M_system/build/nmea_navsat_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/user/M_system/build/nmea_navsat_driver/prefix_override:/home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages:'}, 'shell': False}
+[3.219126] (-) TimerEvent: {}
+[3.308074] (my_string_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[3.311058] (my_string_publisher) StdoutLine: {'line': b'writing ../../build/my_string_publisher/my_string_publisher.egg-info/PKG-INFO\n'}
+[3.312000] (my_string_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/my_string_publisher/my_string_publisher.egg-info/dependency_links.txt\n'}
+[3.312417] (my_string_publisher) StdoutLine: {'line': b'writing entry points to ../../build/my_string_publisher/my_string_publisher.egg-info/entry_points.txt\n'}
+[3.312818] (my_string_publisher) StdoutLine: {'line': b'writing requirements to ../../build/my_string_publisher/my_string_publisher.egg-info/requires.txt\n'}
+[3.313265] (my_string_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/my_string_publisher/my_string_publisher.egg-info/top_level.txt\n'}
+[3.319258] (-) TimerEvent: {}
+[3.320613] (my_string_publisher) StdoutLine: {'line': b"reading manifest file '../../build/my_string_publisher/my_string_publisher.egg-info/SOURCES.txt'\n"}
+[3.323792] (my_string_publisher) StdoutLine: {'line': b"writing manifest file '../../build/my_string_publisher/my_string_publisher.egg-info/SOURCES.txt'\n"}
+[3.324943] (my_string_publisher) StdoutLine: {'line': b'running build\n'}
+[3.325774] (my_string_publisher) StdoutLine: {'line': b'running build_py\n'}
+[3.327375] (my_string_publisher) StdoutLine: {'line': b'running install\n'}
+[3.329316] (my_string_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[3.333444] (my_string_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.340436] (my_string_publisher) StdoutLine: {'line': b"removing '/home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages/my_string_publisher-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.342290] (my_string_publisher) StdoutLine: {'line': b'Copying ../../build/my_string_publisher/my_string_publisher.egg-info to /home/user/M_system/install/my_string_publisher/lib/python3.10/site-packages/my_string_publisher-0.0.1-py3.10.egg-info\n'}
+[3.345697] (my_string_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[3.415064] (my_string_publisher) StdoutLine: {'line': b'Installing StringPublisher script to /home/user/M_system/install/my_string_publisher/lib/my_string_publisher\n'}
+[3.417404] (my_string_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/user/M_system/build/my_string_publisher/install.log'\n"}
+[3.419378] (-) TimerEvent: {}
+[3.521289] (my_string_publisher) CommandEnded: {'returncode': 0}
+[3.522370] (-) TimerEvent: {}
+[3.623245] (-) TimerEvent: {}
+[3.686689] (my_string_publisher) JobEnded: {'identifier': 'my_string_publisher', 'rc': 0}
+[3.723412] (-) TimerEvent: {}
+[3.823869] (-) TimerEvent: {}
+[3.924412] (-) TimerEvent: {}
+[3.998842] (nmea_navsat_driver) StdoutLine: {'line': b'running egg_info\n'}
+[4.000303] (nmea_navsat_driver) StdoutLine: {'line': b'creating ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info\n'}
+[4.000714] (nmea_navsat_driver) StdoutLine: {'line': b'writing ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/PKG-INFO\n'}
+[4.001380] (nmea_navsat_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/dependency_links.txt\n'}
+[4.001906] (nmea_navsat_driver) StdoutLine: {'line': b'writing entry points to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/entry_points.txt\n'}
+[4.002314] (nmea_navsat_driver) StdoutLine: {'line': b'writing requirements to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/requires.txt\n'}
+[4.002648] (nmea_navsat_driver) StdoutLine: {'line': b'writing top-level names to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/top_level.txt\n'}
+[4.003433] (nmea_navsat_driver) StdoutLine: {'line': b"writing manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'\n"}
+[4.008023] (nmea_navsat_driver) StdoutLine: {'line': b"reading manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'\n"}
+[4.010255] (nmea_navsat_driver) StdoutLine: {'line': b"writing manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'\n"}
+[4.010724] (nmea_navsat_driver) StdoutLine: {'line': b'running build\n'}
+[4.011003] (nmea_navsat_driver) StdoutLine: {'line': b'running build_py\n'}
+[4.011641] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/build/nmea_navsat_driver/build\n'}
+[4.012368] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/build/nmea_navsat_driver/build/lib\n'}
+[4.012737] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver\n'}
+[4.013105] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/__init__.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver\n'}
+[4.013428] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/checksum_utils.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver\n'}
+[4.013673] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/parser.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver\n'}
+[4.015172] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/driver.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver\n'}
+[4.015574] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes\n'}
+[4.015918] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/nodes/__init__.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes\n'}
+[4.016260] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/nodes/nmea_topic_driver.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes\n'}
+[4.016517] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes\n'}
+[4.016846] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/nodes/nmea_socket_driver.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes\n'}
+[4.017048] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/nodes/nmea_serial_driver.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes\n'}
+[4.017420] (nmea_navsat_driver) StdoutLine: {'line': b'copying src/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py -> /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes\n'}
+[4.018053] (nmea_navsat_driver) StdoutLine: {'line': b'running install\n'}
+[4.019099] (nmea_navsat_driver) StdoutLine: {'line': b'running install_lib\n'}
+[4.020532] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver\n'}
+[4.020946] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/__init__.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver\n'}
+[4.021333] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/checksum_utils.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver\n'}
+[4.021712] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/parser.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver\n'}
+[4.022058] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes\n'}
+[4.022431] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/__init__.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes\n'}
+[4.022787] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_topic_driver.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes\n'}
+[4.023134] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes\n'}
+[4.023484] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_socket_driver.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes\n'}
+[4.023862] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_serial_driver.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes\n'}
+[4.024878] (-) TimerEvent: {}
+[4.025362] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes\n'}
+[4.025687] (nmea_navsat_driver) StdoutLine: {'line': b'copying /home/user/M_system/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/driver.py -> /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver\n'}
+[4.026508] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/__init__.py to __init__.cpython-310.pyc\n'}
+[4.026892] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/checksum_utils.py to checksum_utils.cpython-310.pyc\n'}
+[4.027592] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/parser.py to parser.cpython-310.pyc\n'}
+[4.030557] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/__init__.py to __init__.cpython-310.pyc\n'}
+[4.031145] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_topic_driver.py to nmea_topic_driver.cpython-310.pyc\n'}
+[4.032168] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py to nmea_tcpclient_driver.cpython-310.pyc\n'}
+[4.033542] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_socket_driver.py to nmea_socket_driver.cpython-310.pyc\n'}
+[4.034884] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_serial_driver.py to nmea_serial_driver.cpython-310.pyc\n'}
+[4.036823] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py to nmea_topic_serial_reader.cpython-310.pyc\n'}
+[4.037332] (nmea_navsat_driver) StdoutLine: {'line': b'byte-compiling /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/driver.py to driver.cpython-310.pyc\n'}
+[4.041430] (nmea_navsat_driver) StdoutLine: {'line': b'running install_data\n'}
+[4.041913] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/install/nmea_navsat_driver/share/ament_index\n'}
+[4.042315] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/install/nmea_navsat_driver/share/ament_index/resource_index\n'}
+[4.042666] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/install/nmea_navsat_driver/share/ament_index/resource_index/packages\n'}
+[4.043005] (nmea_navsat_driver) StdoutLine: {'line': b'copying resource/nmea_navsat_driver -> /home/user/M_system/install/nmea_navsat_driver/share/ament_index/resource_index/packages\n'}
+[4.043364] (nmea_navsat_driver) StdoutLine: {'line': b'copying package.xml -> /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver\n'}
+[4.043701] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/launch\n'}
+[4.044066] (nmea_navsat_driver) StdoutLine: {'line': b'copying launch/nmea_socket_driver.launch.py -> /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/launch\n'}
+[4.044418] (nmea_navsat_driver) StdoutLine: {'line': b'copying launch/nmea_tcpclient_driver.launch.py -> /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/launch\n'}
+[4.044907] (nmea_navsat_driver) StdoutLine: {'line': b'copying launch/nmea_serial_driver.launch.py -> /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/launch\n'}
+[4.045318] (nmea_navsat_driver) StdoutLine: {'line': b'creating /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/config\n'}
+[4.045777] (nmea_navsat_driver) StdoutLine: {'line': b'copying config/nmea_socket_driver.yaml -> /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/config\n'}
+[4.046005] (nmea_navsat_driver) StdoutLine: {'line': b'copying config/nmea_serial_driver.yaml -> /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/config\n'}
+[4.046196] (nmea_navsat_driver) StdoutLine: {'line': b'copying config/nmea_tcpclient_driver.yaml -> /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/config\n'}
+[4.046383] (nmea_navsat_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.049657] (nmea_navsat_driver) StdoutLine: {'line': b'Copying ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info to /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.1-py3.10.egg-info\n'}
+[4.051427] (nmea_navsat_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[4.102601] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_serial_driver script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[4.103046] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_socket_driver script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[4.103422] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_tcpclient_driver script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[4.103774] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_topic_driver script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[4.104122] (nmea_navsat_driver) StdoutLine: {'line': b'Installing nmea_topic_serial_reader script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver\n'}
+[4.105336] (nmea_navsat_driver) StdoutLine: {'line': b"writing list of installed files to '/home/user/M_system/build/nmea_navsat_driver/install.log'\n"}
+[4.125087] (-) TimerEvent: {}
+[4.189198] (nmea_navsat_driver) CommandEnded: {'returncode': 0}
+[4.225343] (-) TimerEvent: {}
+[4.303888] (nmea_navsat_driver) JobEnded: {'identifier': 'nmea_navsat_driver', 'rc': 0}
+[4.305962] (-) EventReactorShutdown: {}

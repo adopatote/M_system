@@ -1,0 +1,24 @@
+[4.340s] Invoking command in '/home/user/M_system/src/P_m_gps_listener': PYTHONPATH=/home/user/M_system/build/P_m_gps_listener/prefix_override:/home/user/M_system/install/P_m_gps_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/P_m_gps_listener build --build-base /home/user/M_system/build/P_m_gps_listener/build install --record /home/user/M_system/build/P_m_gps_listener/install.log --single-version-externally-managed
+[5.426s] running egg_info
+[5.428s] writing ../../build/P_m_gps_listener/P_m_gps_listener.egg-info/PKG-INFO
+[5.429s] writing dependency_links to ../../build/P_m_gps_listener/P_m_gps_listener.egg-info/dependency_links.txt
+[5.429s] writing entry points to ../../build/P_m_gps_listener/P_m_gps_listener.egg-info/entry_points.txt
+[5.430s] writing requirements to ../../build/P_m_gps_listener/P_m_gps_listener.egg-info/requires.txt
+[5.430s] writing top-level names to ../../build/P_m_gps_listener/P_m_gps_listener.egg-info/top_level.txt
+[5.436s] reading manifest file '../../build/P_m_gps_listener/P_m_gps_listener.egg-info/SOURCES.txt'
+[5.438s] writing manifest file '../../build/P_m_gps_listener/P_m_gps_listener.egg-info/SOURCES.txt'
+[5.439s] running build
+[5.439s] running build_py
+[5.441s] copying P_m_gps_listener/N_m_gps_listener.py -> /home/user/M_system/build/P_m_gps_listener/build/lib/P_m_gps_listener
+[5.441s] running install
+[5.443s] running install_lib
+[5.445s] copying /home/user/M_system/build/P_m_gps_listener/build/lib/P_m_gps_listener/N_m_gps_listener.py -> /home/user/M_system/install/P_m_gps_listener/lib/python3.10/site-packages/P_m_gps_listener
+[5.447s] byte-compiling /home/user/M_system/install/P_m_gps_listener/lib/python3.10/site-packages/P_m_gps_listener/N_m_gps_listener.py to N_m_gps_listener.cpython-310.pyc
+[5.448s] running install_data
+[5.450s] running install_egg_info
+[5.464s] removing '/home/user/M_system/install/P_m_gps_listener/lib/python3.10/site-packages/P_m_gps_listener-0.0.1-py3.10.egg-info' (and everything under it)
+[5.464s] Copying ../../build/P_m_gps_listener/P_m_gps_listener.egg-info to /home/user/M_system/install/P_m_gps_listener/lib/python3.10/site-packages/P_m_gps_listener-0.0.1-py3.10.egg-info
+[5.470s] running install_scripts
+[5.542s] Installing gps_listener script to /home/user/M_system/install/P_m_gps_listener/lib/P_m_gps_listener
+[5.543s] writing list of installed files to '/home/user/M_system/build/P_m_gps_listener/install.log'
+[5.672s] Invoked command in '/home/user/M_system/src/P_m_gps_listener' returned '0': PYTHONPATH=/home/user/M_system/build/P_m_gps_listener/prefix_override:/home/user/M_system/install/P_m_gps_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/P_m_gps_listener build --build-base /home/user/M_system/build/P_m_gps_listener/build install --record /home/user/M_system/build/P_m_gps_listener/install.log --single-version-externally-managed

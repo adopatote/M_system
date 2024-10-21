@@ -1,0 +1,3 @@
+[console_scripts]
+gps_listener = P_m_gps_listener.N_m_gps_listener:main
+

@@ -1,0 +1,26 @@
+[4.231s] Invoking command in '/home/user/M_system/src/nmea_navsat_driver': PYTHONPATH=/home/user/M_system/build/nmea_navsat_driver/prefix_override:/home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nmea_navsat_driver build --build-base /home/user/M_system/build/nmea_navsat_driver/build install --record /home/user/M_system/build/nmea_navsat_driver/install.log --single-version-externally-managed
+[5.045s] running egg_info
+[5.047s] writing ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/PKG-INFO
+[5.047s] writing dependency_links to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/dependency_links.txt
+[5.048s] writing entry points to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/entry_points.txt
+[5.049s] writing requirements to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/requires.txt
+[5.049s] writing top-level names to ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/top_level.txt
+[5.055s] reading manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'
+[5.058s] writing manifest file '../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'
+[5.058s] running build
+[5.058s] running build_py
+[5.060s] running install
+[5.061s] running install_lib
+[5.064s] running install_data
+[5.066s] copying config/nmea_serial_driver.yaml -> /home/user/M_system/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[5.067s] running install_egg_info
+[5.071s] removing '/home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.1-py3.10.egg-info' (and everything under it)
+[5.072s] Copying ../../build/nmea_navsat_driver/nmea_navsat_driver.egg-info to /home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.1-py3.10.egg-info
+[5.074s] running install_scripts
+[5.122s] Installing nmea_serial_driver script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[5.122s] Installing nmea_socket_driver script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[5.123s] Installing nmea_tcpclient_driver script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[5.123s] Installing nmea_topic_driver script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[5.123s] Installing nmea_topic_serial_reader script to /home/user/M_system/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[5.132s] writing list of installed files to '/home/user/M_system/build/nmea_navsat_driver/install.log'
+[5.207s] Invoked command in '/home/user/M_system/src/nmea_navsat_driver' returned '0': PYTHONPATH=/home/user/M_system/build/nmea_navsat_driver/prefix_override:/home/user/M_system/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nmea_navsat_driver build --build-base /home/user/M_system/build/nmea_navsat_driver/build install --record /home/user/M_system/build/nmea_navsat_driver/install.log --single-version-externally-managed

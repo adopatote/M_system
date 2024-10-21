@@ -1,0 +1,3 @@
+[console_scripts]
+StringPublisher = my_string_publisher.publisher_node:main
+
